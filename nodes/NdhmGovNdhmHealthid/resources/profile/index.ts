@@ -442,7 +442,7 @@ export const profileDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -748,7 +748,7 @@ export const profileDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -937,7 +937,7 @@ export const profileDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -2182,7 +2182,7 @@ export const profileDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Health Id",
+			"displayName": "Health ID",
 			"name": "healthId",
 			"type": "string",
 			"default": "",

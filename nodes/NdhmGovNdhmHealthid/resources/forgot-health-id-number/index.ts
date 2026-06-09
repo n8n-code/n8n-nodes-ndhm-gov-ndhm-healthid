@@ -9,14 +9,14 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Retrieval Health Id By Aadhar Using POST",
-					"value": "Retrieval Health Id By Aadhar Using POST",
+					"name": "Retrieval Health ID By Aadhar Using POST",
+					"value": "Retrieval Health ID By Aadhar Using POST",
 					"action": "Verify aadhar OTP sent as part of forgetHealth id.",
 					"description": "Verify aadhar OTP sent as part of forgetHealth id.",
 					"routing": {
@@ -39,8 +39,8 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Retrieval Health Id By Mobile Using POST",
-					"value": "Retrieval Health Id By Mobile Using POST",
+					"name": "Retrieval Health ID By Mobile Using POST",
+					"value": "Retrieval Health ID By Mobile Using POST",
 					"action": "Verify Mobile OTP sent as  part of forgetHealth id.",
 					"description": "Verify Mobile OTP sent as  part of forgetHealth id.",
 					"routing": {
@@ -76,10 +76,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Aadhar Using POST"
+						"Retrieval Health ID By Aadhar Using POST"
 					]
 				}
 			}
@@ -99,10 +99,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Aadhar Using POST"
+						"Retrieval Health ID By Aadhar Using POST"
 					]
 				}
 			}
@@ -124,17 +124,17 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Aadhar Using POST"
+						"Retrieval Health ID By Aadhar Using POST"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -149,10 +149,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Aadhar Using POST"
+						"Retrieval Health ID By Aadhar Using POST"
 					]
 				}
 			}
@@ -174,10 +174,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Aadhar Using POST"
+						"Retrieval Health ID By Aadhar Using POST"
 					]
 				}
 			}
@@ -199,10 +199,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Aadhar Using POST"
+						"Retrieval Health ID By Aadhar Using POST"
 					]
 				}
 			}
@@ -218,7 +218,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Aadhar OTP Using POST 1"
@@ -241,7 +241,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Aadhar OTP Using POST 1"
@@ -265,7 +265,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Aadhar OTP Using POST 1"
@@ -290,7 +290,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Aadhar OTP Using POST 1"
@@ -315,7 +315,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Aadhar OTP Using POST 1"
@@ -334,10 +334,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -357,10 +357,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -381,10 +381,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -405,10 +405,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -429,10 +429,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -453,10 +453,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -477,10 +477,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -501,10 +501,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -525,10 +525,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -549,17 +549,17 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -574,10 +574,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -598,10 +598,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -623,10 +623,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -648,10 +648,10 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
-						"Retrieval Health Id By Mobile Using POST"
+						"Retrieval Health ID By Mobile Using POST"
 					]
 				}
 			}
@@ -667,7 +667,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Mobile OTP Using POST"
@@ -690,7 +690,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Mobile OTP Using POST"
@@ -714,7 +714,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Mobile OTP Using POST"
@@ -739,7 +739,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Mobile OTP Using POST"
@@ -764,7 +764,7 @@ export const forgotHealthIdNumberDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Forgot Health Id Number"
+						"Forgot Health ID Number"
 					],
 					"operation": [
 						"Generate Mobile OTP Using POST"

@@ -252,7 +252,7 @@ export const registrationWithMobileNumberDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Health Id",
+			"displayName": "Health ID",
 			"name": "healthId",
 			"type": "string",
 			"default": "",
@@ -565,7 +565,7 @@ export const registrationWithMobileNumberDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -870,7 +870,7 @@ export const registrationWithMobileNumberDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -1010,7 +1010,7 @@ export const registrationWithMobileNumberDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",

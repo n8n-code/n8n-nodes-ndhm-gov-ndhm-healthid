@@ -96,7 +96,7 @@ export const searchDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Health Id",
+			"displayName": "Health ID",
 			"name": "healthId",
 			"type": "string",
 			"default": "",
@@ -212,7 +212,7 @@ export const searchDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Health Id",
+			"displayName": "Health ID",
 			"name": "healthId",
 			"type": "string",
 			"default": "",

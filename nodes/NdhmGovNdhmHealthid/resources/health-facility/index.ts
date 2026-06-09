@@ -496,7 +496,7 @@ export const healthFacilityDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Health Id",
+			"displayName": "Health ID",
 			"name": "healthId",
 			"type": "string",
 			"default": "",
@@ -616,7 +616,7 @@ export const healthFacilityDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",

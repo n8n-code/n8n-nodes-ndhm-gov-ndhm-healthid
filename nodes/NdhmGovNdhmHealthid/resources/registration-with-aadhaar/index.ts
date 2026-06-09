@@ -75,8 +75,8 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Health Id Numbers By Aadhar Using POST",
-					"value": "Get Health Id Numbers By Aadhar Using POST",
+					"name": "Get Health ID Numbers By Aadhar Using POST",
+					"value": "Get Health ID Numbers By Aadhar Using POST",
 					"action": "Search health id number using aadhar.",
 					"description": "Search health id number using aadhar.",
 					"routing": {
@@ -384,7 +384,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -572,7 +572,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Health Id",
+			"displayName": "Health ID",
 			"name": "healthId",
 			"type": "string",
 			"default": "",
@@ -692,7 +692,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -832,7 +832,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -1065,7 +1065,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -1152,7 +1152,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 						"Registration With Aadhaar"
 					],
 					"operation": [
-						"Get Health Id Numbers By Aadhar Using POST"
+						"Get Health ID Numbers By Aadhar Using POST"
 					]
 				}
 			}
@@ -1175,7 +1175,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 						"Registration With Aadhaar"
 					],
 					"operation": [
-						"Get Health Id Numbers By Aadhar Using POST"
+						"Get Health ID Numbers By Aadhar Using POST"
 					]
 				}
 			}
@@ -1199,7 +1199,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 						"Registration With Aadhaar"
 					],
 					"operation": [
-						"Get Health Id Numbers By Aadhar Using POST"
+						"Get Health ID Numbers By Aadhar Using POST"
 					]
 				}
 			}
@@ -1224,7 +1224,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 						"Registration With Aadhaar"
 					],
 					"operation": [
-						"Get Health Id Numbers By Aadhar Using POST"
+						"Get Health ID Numbers By Aadhar Using POST"
 					]
 				}
 			}
@@ -1249,7 +1249,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 						"Registration With Aadhaar"
 					],
 					"operation": [
-						"Get Health Id Numbers By Aadhar Using POST"
+						"Get Health ID Numbers By Aadhar Using POST"
 					]
 				}
 			}
@@ -1509,7 +1509,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",
@@ -1673,7 +1673,7 @@ export const registrationWithAadhaarDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Txn Id",
+			"displayName": "Txn ID",
 			"name": "txnId",
 			"type": "string",
 			"default": "",

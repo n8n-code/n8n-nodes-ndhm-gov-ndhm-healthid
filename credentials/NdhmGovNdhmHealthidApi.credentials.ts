@@ -8,7 +8,7 @@ import type {
 export class NdhmGovNdhmHealthidApi implements ICredentialType {
 	name = 'N8nDevNdhmGovNdhmHealthidApi';
 
-	displayName = 'ndhm-gov-ndhm-healthid API';
+	displayName = 'Ndhm Gov Ndhm Healthid API';
 
 	icon: Icon = { light: 'file:../nodes/NdhmGovNdhmHealthid/ndhm-gov-ndhm-healthid.svg', dark: 'file:../nodes/NdhmGovNdhmHealthid/ndhm-gov-ndhm-healthid.dark.svg' };
 
@@ -22,7 +22,7 @@ export class NdhmGovNdhmHealthidApi implements ICredentialType {
 			default: 'https://healthidsbx.ndhm.gov.in/api',
 			required: true,
 			placeholder: 'https://healthidsbx.ndhm.gov.in/api',
-			description: 'The base URL of your ndhm-gov-ndhm-healthid API server',
+			description: 'The base URL of your Ndhm Gov Ndhm Healthid API server',
 		},
 		{
 			displayName: 'API Key',

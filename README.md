@@ -13,7 +13,7 @@ Every time you connect n8n to ndhm-gov-ndhm-healthid, you waste hours mapping en
 
 **What if connecting n8n to ndhm-gov-ndhm-healthid took 5 minutes, not half a day?**
 
-This node gives you **10+ resources** out of the box: **Authentication**, **Forgot Health Id Number**, **Health Facility**, **Integrated Programs**, **Profile**, and 5 more: with full CRUD operations, typed parameters, and zero manual configuration.
+This node gives you **10+ resources** out of the box: **Authentication**, **Forgot Health ID Number**, **Health Facility**, **Integrated Programs**, **Profile**, and 5 more: with full CRUD operations, typed parameters, and zero manual configuration.
 
 ---
 
@@ -53,18 +53,138 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Authentication | Post authenticate using health id number  health id and password, Post authenticate request to generate mobile otp using health id number  health id, Post authenticate using verified mobile number and user data, Get auth token public key, Post authentication with aadhaar biometric based auth transaction, Post authentication with aadhaar otp based auth transaction, Post authenticate using demographic data of user, Post authentication with mobile otp based auth transaction, Post authentication with password based auth transaction, Post initiate authentication process for given health id, Post resend aadhaarmobile otp for authentication transaction |
-| Forgot Health Id Number | Post verify aadhar otp sent as part of forgethealth id, Post generate aadhaar otp on registrered mobile number, Post verify mobile otp sent as  part of forgethealth id, Post generate mobile otp to start registration |
-| Health Facility | Post generate token for heath facility id, Post change password for heath facility id, Post generate health id card svg, Post generates password for heath facility id, Post generate health hacility otp on registrered mobile number, Get generatesvgcard, Post reset password for heath facility id |
-| Integrated Programs | Post generate aadhaar otp on registrered mobile number, Post create health id using aadhaar number otp, Post create health id using biometric authentication, Post create health id using aadhaar demo auth, Post delinked with hid, Post linked with hid, Post create health id using mobile authentication, Post generate mobile otp on registrered mobile number, Post create health id using notify benefit, Post search health id number using aadhar or aadhar token, Post search benefit using health id number, Post update mobile number for account, Post update account information, Post update health id status |
-| Profile | Post generate aadhaar otp on registrered for link account with aadhar number, Post verify aadhaar otp to complete kycrekyc verification, Get list of benefits associated with healthid, Post change password via aadhar for heath id, Post change password via mobile for heath id, Get generate aadhaar otp on registrered mobile number, Get generate mobile otp to start registration, Post change password via password for heath id, Get generate health id card in pdf format, Get generate health id card png, Get generate health id card svg, Delete account, Get account information, Post update account information, Get quick response code in png format for this account, Post validate auth token |
-| Registration With Aadhaar | Post verify aadhaar otp on registrered mobile number to create health id, Post create health id using preverified aadhaar  mobile, Post generate mobile otp for verification, Post generate aadhaar otp on registrered mobile number, Post resend aadhaar otp on registrered mobile number to create health id, Post search health id number using aadhar, Post verify aadhaar using biometrics, Post verify mobile otp in an existing transaction, Post verify aadhaar otp and continue for mobile verification |
-| Registration With Mobile Number | Post create health id with verified mobile token, Post generate mobile otp to start registration, Post resend mobile otp for health id registration, Post verify mobile otp sent as part of registration transaction |
-| Search | Post search a user by health ids, Post search a user by health id number, Post search users with a mobile number |
-| Tags | Delete tag against healthid, Get list of tags against healthid, Post add tag against healthid |
-| Utility | Get a list of districts in a given  state as per lgd, Get a list of states as per lgd |
+<details>
+<summary><b>Authentication</b> (11 operations)</summary>
+
+- Post Authenticate using Health ID number Health ID and password
+- Post Authenticate request to generate Mobile OTP using Health ID number Health ID
+- Post Authenticate using verified Mobile Number and user data
+- Get Auth token public key
+- Post Authentication with Aadhaar Biometric based auth transaction
+- Post Authentication with Aadhaar OTP based auth transaction
+- Post Authenticate using demographic data of user
+- Post Authentication with Mobile OTP based auth transaction
+- Post Authentication with PASSWORD based auth transaction
+- Post Initiate authentication process for given Health ID
+- Post Resend Aadhaar Mobile OTP for Authentication Transaction
+
+</details>
+
+<details>
+<summary><b>Forgot Health ID Number</b> (4 operations)</summary>
+
+- Post Verify aadhar OTP sent as part of forgetHealth ID
+- Post Generate Aadhaar OTP on registrered mobile number
+- Post Verify Mobile OTP sent as part of forgetHealth ID
+- Post Generate Mobile OTP to start registration
+
+</details>
+
+<details>
+<summary><b>Health Facility</b> (7 operations)</summary>
+
+- Post Generate token for heath facility ID
+- Post Change password for heath facility ID
+- Post Generate Health ID card SVG
+- Post Generates password for heath facility ID
+- Post Generate health hacility OTP on registrered mobile number
+- Get generateSvgCard
+- Post Reset password for heath facility ID
+
+</details>
+
+<details>
+<summary><b>Integrated Programs</b> (14 operations)</summary>
+
+- Post Generate Aadhaar OTP on registrered mobile number
+- Post Create health ID using Aadhaar Number Otp
+- Post Create health ID using Biometric Authentication
+- Post Create health ID using Aadhaar Demo Auth
+- Post De Linked with hid
+- Post Linked with hid
+- Post Create health ID using mobile Authentication
+- Post Generate mobile OTP on registrered mobile number
+- Post Create health ID using notify Benefit
+- Post Search health ID number using aadhar or aadhar token
+- Post Search benefit using health ID number
+- Post Update mobile number for account
+- Post Update account information
+- Post Update health ID status
+
+</details>
+
+<details>
+<summary><b>Profile</b> (16 operations)</summary>
+
+- Post Generate Aadhaar OTP on registrered for link account with aadhar number
+- Post Verify Aadhaar OTP to complete KYC re KYC verification
+- Get List of Benefits associated with HealthID
+- Post Change password via Aadhar for heath ID
+- Post Change password via mobile for heath ID
+- Get Generate Aadhaar OTP on registrered mobile number
+- Get Generate Mobile OTP to start registration
+- Post Change password via password for heath ID
+- Get Generate Health ID card in PDF format
+- Get Generate Health ID card PNG
+- Get Generate Health ID card SVG
+- Delete account
+- Get account information
+- Post Update account information
+- Get Quick Response code in PNG format for this account
+- Post Validate auth token
+
+</details>
+
+<details>
+<summary><b>Registration With Aadhaar</b> (9 operations)</summary>
+
+- Post Verify Aadhaar OTP on registrered mobile number to create Health ID
+- Post Create Health ID using pre verified Aadhaar Mobile
+- Post Generate Mobile OTP for verification
+- Post Generate Aadhaar OTP on registrered mobile number
+- Post Resend Aadhaar OTP on registrered mobile number to create Health ID
+- Post Search health ID number using aadhar
+- Post Verify Aadhaar using biometrics
+- Post Verify Mobile OTP in an existing transaction
+- Post Verify Aadhaar OTP and continue for mobile verification
+
+</details>
+
+<details>
+<summary><b>Registration With Mobile Number</b> (4 operations)</summary>
+
+- Post Create Health ID with verified mobile token
+- Post Generate Mobile OTP to start registration
+- Post Resend Mobile OTP for Health ID registration
+- Post Verify Mobile OTP sent as part of registration transaction
+
+</details>
+
+<details>
+<summary><b>Search</b> (3 operations)</summary>
+
+- Post Search a user by Health IDs
+- Post Search a user by Health ID Number
+- Post Search users with a mobile number
+
+</details>
+
+<details>
+<summary><b>Tags</b> (3 operations)</summary>
+
+- Delete tag against HealthId
+- Get list of Tags against HealthID
+- Post Add tag against HealthId
+
+</details>
+
+<details>
+<summary><b>Utility</b> (2 operations)</summary>
+
+- Get a list of districts in a given State as per LGD
+- Get a list of states as per LGD
+
+</details>
 
 ---
 

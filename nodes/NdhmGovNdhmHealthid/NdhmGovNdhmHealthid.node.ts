@@ -12,14 +12,14 @@ import { utilityDescription } from './resources/utility';
 
 export class NdhmGovNdhmHealthid implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'ndhm-gov-ndhm-healthid',
+		displayName: 'Ndhm Gov Ndhm Healthid',
 		name: 'N8nDevNdhmGovNdhmHealthid',
 		icon: { light: 'file:./ndhm-gov-ndhm-healthid.svg', dark: 'file:./ndhm-gov-ndhm-healthid.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'It is important to standardize the process of identification of an individual across healthcare providers, to ensure that the created medical records are issued to the right individual or accessed ..',
-		defaults: { name: 'ndhm-gov-ndhm-healthid' },
+		defaults: { name: 'Ndhm Gov Ndhm Healthid' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
@@ -49,8 +49,8 @@ export class NdhmGovNdhmHealthid implements INodeType {
 					"description": "Health ID Authentication APIs"
 				},
 				{
-					"name": "Forgot Health Id Number",
-					"value": "Forgot Health Id Number",
+					"name": "Forgot Health ID Number",
+					"value": "Forgot Health ID Number",
 					"description": "APIs to Retrieve Health ID/number using mobile number or aadhar."
 				},
 				{
