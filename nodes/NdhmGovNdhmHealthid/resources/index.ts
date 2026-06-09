@@ -1,0 +1,10 @@
+export { authenticationDescription } from './authentication';
+export { forgotHealthIdNumberDescription } from './forgot-health-id-number';
+export { healthFacilityDescription } from './health-facility';
+export { integratedProgramsDescription } from './integrated-programs';
+export { profileDescription } from './profile';
+export { registrationWithAadhaarDescription } from './registration-with-aadhaar';
+export { registrationWithMobileNumberDescription } from './registration-with-mobile-number';
+export { searchDescription } from './search';
+export { tagsDescription } from './tags';
+export { utilityDescription } from './utility';
